@@ -13,3 +13,12 @@
   object-fit: contain;
   width: 500px;
 }
+.videoCard > h2 {
+  padding-top: 10px;
+}
+.videoCard_stats {
+  display: none;
+}
+.videoCard:hover > .videoCard_stats {
+  display: inline;
+}
